@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js")</script>
+  <title>DAY LAYER — 정다연 포트폴리오</title>
+  <meta name="description" content="DAY LAYER — 디자이너 정다연의 연구·편집·전시·서비스 디자인 포트폴리오">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ───────── 왼쪽: 프로젝트 ───────── -->
+  <div class="main-col">
+    <header class="top">
+      <a class="brand notranslate" href="./" translate="no">DAY LAYER</a>
+      <a class="top-mail notranslate" translate="no" href="mailto:dayonj@kookmin.ac.kr">dayonj@kookmin.ac.kr</a>
+      <button class="profile-open" type="button" aria-controls="side" aria-expanded="false">Profile</button>
+    </header>
+
+    <div class="toolbar">
+      <nav class="filters notranslate" translate="no" aria-label="프로젝트 분류">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All Project</button>
+        <button type="button" class="filter" data-filter="research" aria-pressed="false">Research</button>
+        <button type="button" class="filter" data-filter="editorial" aria-pressed="false">Editorial</button>
+        <button type="button" class="filter" data-filter="exhibition" aria-pressed="false">Exhibition</button>
+        <button type="button" class="filter" data-filter="contents" aria-pressed="false">Contents</button>
+        <button type="button" class="filter" data-filter="service" aria-pressed="false">Service</button>
+        <button type="button" class="filter" data-filter="character" aria-pressed="false">Character</button>
+      </nav>
+      <div class="tools">
+        <button type="button" class="tool" id="lang-btn" aria-label="영어로 번역" aria-pressed="false" title="English">
+          <svg width="16" height="16" viewBox="1086.5 91.5 15 15" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M1094 105.75C1097.73 105.75 1100.75 102.728 1100.75 99C1100.75 95.2721 1097.73 92.25 1094 92.25M1094 105.75C1090.27 105.75 1087.25 102.728 1087.25 99C1087.25 95.2721 1090.27 92.25 1094 92.25M1094 105.75C1092.37 105.75 1091.05 102.728 1091.05 99C1091.05 95.2721 1092.37 92.25 1094 92.25M1094 105.75C1095.63 105.75 1096.95 102.728 1096.95 99C1096.95 95.2721 1095.63 92.25 1094 92.25M1088.52 102.281C1089.75 101.573 1091.81 101.109 1094.13 101.109C1096.56 101.109 1098.69 101.614 1099.91 102.375M1088.52 95.7192C1089.75 96.4273 1091.81 96.8906 1094.13 96.8906C1096.56 96.8906 1098.69 96.386 1099.91 95.625"/></svg>
+        </button>
+        <button type="button" class="tool" id="search-open" aria-label="검색" aria-haspopup="dialog" aria-controls="search">
+          <svg width="16" height="16" viewBox="1124 91 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M1135.7 102.78L1138.3 105.3M1137.46 98.5802C1137.46 101.828 1134.83 104.46 1131.58 104.46C1128.33 104.46 1125.7 101.828 1125.7 98.5802C1125.7 95.3328 1128.33 92.7002 1131.58 92.7002C1134.83 92.7002 1137.46 95.3328 1137.46 98.5802Z"/></svg>
+        </button>
+        <button type="button" class="tool" id="view-btn" aria-label="목록으로 보기" aria-pressed="false">
+          <svg width="17" height="13" viewBox="1162.5 93.3 16 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1167.54 94.5H1177.2M1167.54 99.36H1177.2M1167.54 104.22H1177.2M1163.7 94.5V94.5096M1163.7 99.36V99.3696M1163.7 104.22V104.23"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <main>
+      <h1 class="sr-only">프로젝트</h1>
+      <ul class="grid" id="grid">
+
+        <li class="card" data-cats="research">
+          <a class="card-link" href="#color-safety" data-project="color-safety">
+            <div class="thumb"><div class="art art--frame"><span>2026 한국디자인학회<br>가을 국제학술대회 발표논문</span></div></div>
+            <h2 class="card-title">야간 보행환경의 색채 표식에 따른 지각된 안전감 및 인식 차이 탐색</h2>
+            <ul class="tags"><li>공공디자인</li><li>환경디자인</li><li>사용자 경험</li></ul>
+            <span class="card-year notranslate" translate="no">2026</span>
+          </a>
+        </li>
+        <li class="card" data-cats="research">
+          <a class="card-link" href="#chatbot-ticketing" data-project="chatbot-ticketing">
+            <div class="thumb"><div class="art art--frame"><span>2026 한국디자인학회<br>봄 국제학술대회 발표논문</span></div></div>
+            <h2 class="card-title">프로스포츠 모바일 예매에서 좌석 선택 개선을 위한 챗봇 UX 디자인 연구</h2>
+            <ul class="tags"><li>서비스 디자인</li><li>UIUX</li></ul>
+            <span class="card-year notranslate" translate="no">2026</span>
+          </a>
+        </li>
+        <li class="card" data-cats="editorial">
+          <a class="card-link" href="#saranghagi" data-project="saranghagi">
+            <div class="thumb"><div class="art"><img src="assets/img/saranghagi-book.jpg" alt="《사랑하기 때문에》 소장본 표지 목업" width="744" height="1012" loading="lazy"></div></div>
+            <h2 class="card-title">《사랑하기 때문에》 독립작가 개인 소장본</h2>
+            <ul class="tags"><li>편집 디자인</li><li>북 디자인</li></ul>
+            <span class="card-year notranslate" translate="no">2026</span>
+          </a>
+        </li>
+        <li class="card" data-cats="research">
+          <a class="card-link" href="#youth-isolation" data-project="youth-isolation">
+            <div class="thumb"><div class="art art--frame"><span>2026 한국일러스아트학회<br>기초조형학 KCI 3월호</span></div></div>
+            <h2 class="card-title">청년 고립에 대한 리프레이밍과 행동디자인 전략 연구 - 소셜디자인 프로젝트 사례를 중심으로</h2>
+            <ul class="tags"><li>소셜 디자인</li><li>행동 디자인</li></ul>
+            <span class="card-year notranslate" translate="no">2026</span>
+          </a>
+        </li>
+        <li class="card" data-cats="contents">
+          <a class="card-link" href="#witch-watch" data-project="witch-watch">
+            <div class="thumb"><div class="art"><img src="assets/img/witch-watch.jpg" alt="WITCH WATCH 로고타입 그래픽" width="744" height="1012" loading="lazy"></div></div>
+            <h2 class="card-title">트렌드 아카이브 ‘WITCH WATCH’</h2>
+            <ul class="tags"><li>콘텐츠 디자인</li></ul>
+            <span class="card-year notranslate" translate="no">2026</span>
+          </a>
+        </li>
+        <li class="card" data-cats="research">
+          <a class="card-link" href="#senior-food-safety" data-project="senior-food-safety">
+            <div class="thumb"><div class="art art--frame"><span>2025 대한인간공학회<br>춘계 학술대회 발표논문</span></div></div>
+            <h2 class="card-title">노인의 식품안전 인식 및 식재료 관리 실태에 관한 탐색적 연구</h2>
+            <ul class="tags"><li>사용자 경험</li></ul>
+            <span class="card-year notranslate" translate="no">2025</span>
+          </a>
+        </li>
+        <li class="card" data-cats="service">
+          <a class="card-link" href="#dokkaebi-bob" data-project="dokkaebi-bob">
+            <div class="thumb"><div class="art"><img src="assets/img/dokkaebi-bob.jpg" alt="Dokkaebi BOB 로고와 캐릭터" width="744" height="1012" loading="lazy"></div></div>
+            <h2 class="card-title">외국인 관광객을 위한 편의점 먹거리 조합 추천 서비스 ‘Dokkaebi BOB’</h2>
+            <ul class="tags"><li>UIUX</li></ul>
+            <span class="card-year notranslate" translate="no">2025</span>
+          </a>
+        </li>
+        <li class="card" data-cats="exhibition">
+          <a class="card-link" href="#gongmyeong" data-project="gongmyeong">
+            <div class="thumb"><div class="art"><img src="assets/img/gongmyeong.jpg" alt="공명 RESONANCE: The Soundscapes of Uljin 전시 포스터" width="744" height="1012" loading="lazy"></div></div>
+            <h2 class="card-title">울진 국립해양과학관 미디어 전시 사운드 스케이프 오브 울진 ‘공명’</h2>
+            <ul class="tags"><li>미디어아트</li><li>사운드 디자인</li></ul>
+            <span class="card-year notranslate" translate="no">2025</span>
+          </a>
+        </li>
+        <li class="card" data-cats="service">
+          <a class="card-link" href="#usher" data-project="usher">
+            <div class="thumb"><div class="art"><img src="assets/img/usher.jpg" alt="Usher 로고와 공연장 관객 사진" width="744" height="1012" loading="lazy"></div></div>
+            <h2 class="card-title">공연장 온오프라인 관람객 케어 서비스 ‘Usher’</h2>
+            <ul class="tags"><li>UIUX</li><li>서비스 디자인</li></ul>
+            <span class="card-year notranslate" translate="no">2024</span>
+          </a>
+        </li>
+        <li class="card" data-cats="service">
+          <a class="card-link" href="#pole-number" data-project="pole-number">
+            <div class="thumb"><div class="art"><img src="assets/img/pole-number.jpg" alt="전주번호와 NFC 안내가 적용된 전봇대" width="744" height="1012" loading="lazy"></div></div>
+            <h2 class="card-title">전봇대의 전주번호를 이용한 안전 예방 공공디자인 계획</h2>
+            <ul class="tags"><li>공공디자인</li><li>서비스 디자인</li></ul>
+            <span class="card-year notranslate" translate="no">2023</span>
+          </a>
+        </li>
+      </ul>
+      <p class="empty" id="empty" hidden>이 분류에 해당하는 프로젝트가 아직 없습니다.</p>
+    </main>
+
+    <footer class="site-footer notranslate" translate="no"><p>© DAYLAYER. All Rights Reserved.</p></footer>
+  </div>
+
+  <!-- ───────── 가운데 홈: 스크롤 막대 ───────── -->
+  <div class="gutter" aria-hidden="true"><div class="gutter-inner"><div class="thumb-bar" id="thumb-bar"></div></div></div>
+
+  <!-- ───────── 오른쪽: 프로필 ───────── -->
+  <aside class="side" id="side" aria-label="프로필">
+    <div class="side-inner">
+      <div class="side-top">
+        <button class="side-close" type="button" aria-label="패널 닫기">×</button>
+        <button class="side-expand" type="button" aria-label="크게 보기" aria-pressed="false" hidden>
+          <svg class="i-expand" width="18" height="18" viewBox="1240 26 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1257 32.7931V27H1251.21M1257 27L1250.24 33.7586M1241 37.2069V43H1246.79M1241 43L1247.76 36.2414"/></svg>
+          <svg class="i-shrink" width="18" height="18" viewBox="1240 26 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1250.24 28V33.76H1256M1250.24 33.76L1257 27M1247.76 42V36.24H1242M1247.76 36.24L1241 43"/></svg>
+        </button>
+        <div class="side-tabs notranslate" translate="no" role="tablist">
+          <button class="side-tab is-active" role="tab" aria-selected="true" aria-controls="panel-profile" id="tab-profile" data-tab="profile">Profile</button>
+          <button class="side-tab" role="tab" aria-selected="false" aria-controls="panel-contact" id="tab-contact" data-tab="contact">Contact</button>
+        </div>
+      </div>
+
+      <div id="panel-profile" role="tabpanel" aria-labelledby="tab-profile">
+        <section class="side-sec side-intro">
+          <p class="intro">자신의 속도로 하루의 관찰과 생각을 작업으로 옮깁니다. 그렇게 쌓인 경험이 하나의 관점이 되도록, 꾸준히 작업의 층을 더해갑니다. 데이레이어(Daylayer)는 매일의 축적을 통해 나만의 디자인을 만들어간다는 의미를 담고 있습니다.</p>
+          <div class="contact-mini notranslate" translate="no">
+            <ul>
+              <li>M. <a href="tel:+821091644648">+82 10 9164 4648</a></li>
+              <li>E. <a href="mailto:dayonj@kookmin.ac.kr">dayonj@kookmin.ac.kr</a></li>
+              <li><a href="https://www.ted.kookmin.ac.kr" target="_blank" rel="noopener">www.ted.kookmin.ac.kr</a></li>
+            </ul>
+            <ul class="sns">
+              <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+              <li><a href="#" target="_blank" rel="noopener">X(Twitter)</a></li>
+              <li><a href="#" target="_blank" rel="noopener">Behance</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="side-sec side-designer">
+          <div>
+            <h2 class="side-label">Designer</h2>
+            <p class="name"><span class="notranslate" translate="no">정다연</span> <span lang="en" class="notranslate" translate="no">Dayeon Jung</span></p>
+            <ul class="bio">
+              <li>1997.10.21</li>
+              <li>서일대학교 커뮤니케이션 디자인 전공</li>
+              <li>국민대학교 테크노디자인전문대학원 융합디자인 전공</li>
+            </ul>
+          </div>
+          <img class="portrait" src="assets/img/profile.jpg" alt="디자이너 정다연 프로필 사진" width="414" height="302">
+        </section>
+
+        <section class="side-sec">
+          <h2 class="side-label">Experience</h2>
+          <dl class="timeline">
+            <div><dt>2023.10</dt><dd>공공디자인 국민 아이디어 최우수상, 한국공예·디자인문화진흥원</dd></div>
+            <div><dt>2025.07</dt><dd>&lt;Resonance : Sound Scape&gt;, 울진 국립해양과학관</dd></div>
+            <div><dt>2025.10</dt><dd>AI 디자인 워크숍, 한국디자인진흥원</dd></div>
+            <div><dt>2025.11</dt><dd>학술대회 발표, 대한인간공학회</dd></div>
+            <div><dt>2026.03</dt><dd>KCI 등재, 한국일러스아트학회</dd></div>
+            <div><dt>2026.06</dt><dd>국제학술대회 발표, 한국디자인학회</dd></div>
+            <div><dt>2026.11</dt><dd>국제학술대회 발표, 한국디자인학회</dd></div>
+          </dl>
+        </section>
+
+        <section class="side-sec side-last">
+          <h2 class="side-label">Work</h2>
+          <dl class="timeline">
+            <div><dt>2019</dt><dd>이랜드 스파오 V/MD (2019 - 2021)</dd></div>
+          </dl>
+        </section>
+      </div>
+
+      <div id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" hidden>
+        <form class="inquiry" id="inquiry" novalidate>
+          <h2 class="inquiry-head">프로젝트 문의</h2>
+          <label class="field">
+            <span class="field-label">제목 <em class="field-err" aria-live="polite"></em></span>
+            <input name="title" type="text" required maxlength="120" autocomplete="off">
+          </label>
+          <label class="field field--tall">
+            <span class="field-label">내용 <em class="field-err" aria-live="polite"></em></span>
+            <textarea name="message" required maxlength="4000"></textarea>
+          </label>
+          <label class="field">
+            <span class="field-label">담당자 이름 <em class="field-err" aria-live="polite"></em></span>
+            <input name="name" type="text" required maxlength="60" autocomplete="name">
+          </label>
+          <label class="field">
+            <span class="field-label">소속</span>
+            <input name="organization" type="text" maxlength="100" autocomplete="organization">
+          </label>
+          <label class="field">
+            <span class="field-label">연락망 <em class="field-err" aria-live="polite"></em></span>
+            <input name="contact" type="text" required maxlength="120" autocomplete="email" placeholder="이메일 또는 전화번호">
+          </label>
+          <label class="field">
+            <span class="field-label">프로젝트 일정</span>
+            <input name="schedule" type="text" maxlength="100" placeholder="예) 2027.01 – 2027.03">
+          </label>
+          <!-- 스팸 방지용 (사람에게는 보이지 않음) -->
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="inquiry-foot">
+            <button class="inquiry-submit" type="submit">문의하기</button>
+            <p class="inquiry-status" id="inquiry-status" role="status"></p>
+          </div>
+        </form>
+      </div>
+
+      <div id="panel-detail" class="detail" hidden></div>
+    </div>
+  </aside>
+</div>
+
+<!-- ───────── 검색 ───────── -->
+<div class="search" id="search" role="dialog" aria-modal="true" aria-label="프로젝트 검색" hidden>
+  <div class="search-backdrop" data-close></div>
+  <div class="search-panel">
+    <form class="search-form" role="search" autocomplete="off">
+      <svg width="16" height="16" viewBox="1124 91 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M1135.7 102.78L1138.3 105.3M1137.46 98.5802C1137.46 101.828 1134.83 104.46 1131.58 104.46C1128.33 104.46 1125.7 101.828 1125.7 98.5802C1125.7 95.3328 1128.33 92.7002 1131.58 92.7002C1134.83 92.7002 1137.46 95.3328 1137.46 98.5802Z"/></svg>
+      <input type="search" id="search-input" placeholder="제목, 태그 검색" aria-label="검색어" aria-controls="search-results">
+      <button type="button" class="search-close" data-close aria-label="검색 닫기">ESC</button>
+    </form>
+    <ul class="search-results" id="search-results" aria-live="polite"></ul>
+  </div>
+</div>
+
+<!-- ───────── 프로젝트 상세 (오른쪽 패널에 표시) ───────── -->
+<template id="project-color-safety">
+  <article class="d" data-id="color-safety">
+    <header class="d-head">
+      <h2 class="d-title">야간 보행환경의 색채 표식에 따른 지각된 안전감 및 인식 차이 탐색 <span class="d-authors">(정다연, 박재완)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>공공디자인</li><li>환경디자인</li><li>사용자 경험</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2026-11-28">2026-11-28</time>
+      </div>
+    </header>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">같은 골목이라도 표식의 색이 달라지면 느끼는 안전감이 달라질까요? 야간 보행환경의 노랑·분홍·빨강·초록 표식을 비교하고, 사람들이 어떤 경험과 의미를 바탕으로 공간의 안전을 판단하는지 탐색한 디자인 리서치 프로젝트입니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Background</h3>
+      <p class="d-text">안심귀갓길의 노면 표식은 보행자에게 공간이 관리되고 있음을 알리는 시각적 신호입니다. 그러나 실제 표식의 색채는 지역마다 다르며, 공식 안전색에 포함되지 않는 분홍도 사용되고 있습니다. 제도적으로 정해진 색채의 의미가 실제 보행자의 인식과도 일치하는지, 익숙함과 사회적 경험은 안전 판단에 어떤 영향을 미치는지 살펴볼 필요가 있었습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Purpose</h3>
+      <p class="d-text">표식의 색채에 따라 지각된 안전감과 불안감이 어떻게 달라지는지 살펴보고, 그 판단의 근거가 되는 경험과 연상을 탐색했습니다. 색채별 평가 점수와 함께 참여자의 설명을 분석하여, 사람들이 표식을 통해 읽어내는 관리의 신호와 사회적 의미를 이해하고자 했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Method</h3>
+      <p class="d-text">서울시 강북구 미아동의 안심귀갓길 야간 사진을 바탕으로, 문구·조명·공간 구조는 유지하고 표식의 색채만 변경한 네 가지 자극물을 제작했습니다. 성인 9명을 대상으로 약 30분간 비대면 개별 인터뷰를 진행하고, 안전감과 불안감의 5점 척도 평가 및 판단 이유를 수집했습니다. 응답은 참여자와 색채별로 비교하여 공통된 인식 범주를 도출했습니다.</p>
+      <ul class="d-gallery">
+        <li><img src="assets/img/color-safety/pink.jpg" alt="분홍색 안심귀갓길 노면 표식 자극물" width="900" height="1263" loading="lazy"></li>
+        <li><img src="assets/img/color-safety/yellow.jpg" alt="노란색 안심귀갓길 노면 표식 자극물" width="900" height="1263" loading="lazy"></li>
+        <li><img src="assets/img/color-safety/green.jpg" alt="초록색 안심귀갓길 노면 표식 자극물" width="900" height="1263" loading="lazy"></li>
+        <li><img src="assets/img/color-safety/red.jpg" alt="빨간색 안심귀갓길 노면 표식 자극물" width="900" height="1263" loading="lazy"></li>
+      </ul>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Key Finding</h3>
+      <p class="d-text">참여자 평가에서 노랑은 가장 높은 안전감을, 분홍은 가장 낮은 불안감을 보였습니다. 노랑은 도로 표지와의 익숙함으로, 분홍은 여성 대상 정책 공간과의 연관성으로 해석되었습니다. 반면 빨강은 위험에 대한 연상을, 초록은 해당 이미지에서 낮은 시인성과 낯선 인상을 동반했습니다. 특히 분홍을 보호와 관리의 신호로 받아들이면서도 배제나 표적화 가능성을 우려하는 응답이 나타나, 높은 안전감 점수가 반드시 표식에 대한 긍정적인 해석을 뜻하지는 않음을 발견했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Project Goal</h3>
+      <p class="d-text">안전 표식의 색채를 평가할 때 시인성과 안전감 점수뿐 아니라, 사용자가 색채에 부여하는 의미와 공간 경험을 함께 고려할 수 있는 기초자료를 마련하고자 했습니다. 이를 통해 공공디자인에서 ‘잘 보이는 표식’과 함께 ‘어떻게 이해되는 표식인가’를 검토할 필요성을 제시했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Limitations</h3>
+      <p class="d-text">본 연구는 특정 골목의 정지 이미지와 성인 9명의 응답을 바탕으로 한 탐색적 연구로, 결과를 일반화하는 데 한계가 있습니다. 후속 연구에서는 참여자의 성별 균형과 공간 유형을 확대하고, 표식의 색채와 ‘여성’ 문구의 영향을 분리하여 안전 인식이 형성되는 과정을 검증할 필요가 있습니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-chatbot-ticketing">
+  <article class="d" data-id="chatbot-ticketing">
+    <header class="d-head">
+      <h2 class="d-title">프로스포츠 모바일 예매에서 좌석 선택 개선을 위한 챗봇 UX 디자인 연구 <span class="d-authors">(정다연, 권효선)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>서비스 디자인</li><li>사용자 경험</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2026-06-06">2026-06-06</time>
+      </div>
+    </header>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">복잡한 좌석 배치도에서 나에게 맞는 자리를 어떻게 선택할 수 있을까요? 프로스포츠 모바일 예매의 좌석 선택 과정에서 발생하는 어려움을 탐색하고, 대화를 통해 조건에 맞지 않는 선택지를 단계적으로 줄여가는 챗봇 UX 설계 방향을 제안한 연구입니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Background</h3>
+      <p class="d-text">프로스포츠 모바일 예매에서는 좌석 위치와 가격뿐 아니라 응원 구역, 좌석 유형, 시야 등 다양한 조건을 함께 고려해야 합니다. 그러나 작은 화면의 좌석 배치도와 낯선 용어만으로는 각 좌석의 특성을 이해하고 비교하기 어렵습니다. 이러한 정보 과부하와 선택의 어려움을 줄이기 위해, 사용자의 판단 기준을 안내하고 탐색을 돕는 인터랙션이 필요하다고 보았습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Purpose</h3>
+      <p class="d-text">기존 모바일 예매와 챗봇 이용 경험을 바탕으로 좌석 선택의 주요 UX 장벽을 파악하고자 했습니다. 특히 사용자가 중요하게 생각하는 조건부터 부적합한 선택지를 제외하는 ‘특성 기반 제거 방식(EBA)’을 대화형 인터페이스에 적용하여, 좌석 선택을 지원하는 UX 설계 원칙을 도출하는 데 목적을 두었습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Method</h3>
+      <p class="d-text">연구는 이론 조사, 휴리스틱 기반 인터뷰, 설계 원칙 도출의 순서로 진행했습니다. LLM 챗봇과 모바일 예매 경험이 있는 성인 8명을 대상으로 개별 심층 인터뷰를 실시하고, 기존 좌석 배치도와 EBA 기반 대화 시나리오를 비교하며 생각을 말하도록 했습니다. 수집한 응답은 어피니티 다이어그램으로 분석하여 반복적으로 나타나는 어려움과 요구를 정리했습니다.</p>
+      <div class="d-screens">
+        <figure class="d-screen">
+          <img src="assets/img/chatbot-ticketing/stimulus-a.jpg" alt="자극물 A: 좌석 배치도와 구역별 잔여석 목록이 있는 기존 모바일 예매 화면" width="720" height="1447" loading="lazy">
+          <figcaption><strong>자극물 A</strong>기존 예매 화면</figcaption>
+        </figure>
+        <figure class="d-screen">
+          <img src="assets/img/chatbot-ticketing/stimulus-b.jpg" alt="자극물 B: ‘예매 도우미’ 챗봇이 시야·가성비 등 선호 조건을 묻는 대화 화면" width="720" height="1410" loading="lazy">
+          <figcaption><strong>자극물 B</strong>챗봇 적용 시안</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Key Finding</h3>
+      <p class="d-text">참여자 8명 모두 좌석을 선택하는 기준이 불명확하다고 응답했으며, 7명은 좌석 용어와 구조를 이해하는 어려움 및 정보 과부하를 언급했습니다. 또한 자동 추천에 대한 신뢰 부족과 단계적 안내 선호가 각각 6명에게서 나타났습니다. 이러한 결과는 좌석 추천과 함께 판단 기준, 추천 이유, 선택을 조정할 수 있는 과정이 필요함을 시사했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Proposed Features</h3>
+      <p class="d-text">인터뷰 결과를 바탕으로 다섯 가지 UX 설계 방향을 제안했습니다. 좌석 탐색에 앞서 판단 기준을 안내하고, 좌석 특성을 사용자가 이해하기 쉬운 조건 중심의 언어로 설명합니다. 이후 대화를 통해 선택지를 단계적으로 좁히고, 추천 결과에는 그 근거를 함께 제공합니다. 각 단계에서는 현재 조건을 확인하고 수정할 수 있도록 하여 사용자의 통제감을 지원합니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Project Goal</h3>
+      <p class="d-text">사용자가 자신의 관람 조건을 정리하고, 좌석이 추천되는 이유를 이해하며 선택할 수 있는 예매 경험을 지향했습니다. 복잡한 좌석 탐색을 설명 가능하고 예측 가능한 단계로 구성하여, 사용자의 인지적 부담을 줄이고 주도적인 의사결정을 지원하는 것이 목표입니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Limitations</h3>
+      <p class="d-text">본 연구는 인터뷰를 바탕으로 한 개념적 설계 제안으로, 실제 인터페이스 구현과 사용성 검증은 수행하지 않았습니다. 후속 단계에서는 제안한 원칙을 프로토타입으로 구현하고, 예매 성공률과 과업 수행 시간, 만족도, 신뢰도를 통해 효과를 검증하고자 합니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-saranghagi">
+  <article class="d d--media" data-id="saranghagi">
+    <header class="d-head">
+      <h2 class="d-title">《사랑하기 때문에》 독립작가 개인 소장본 <span class="d-authors">(정다연)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>편집 디자인</li><li>북 디자인</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2026-09-15">2026-09-15</time>
+      </div>
+    </header>
+    <div class="d-media">
+      <img src="assets/img/saranghagi/cover.jpg" alt="《사랑하기 때문에》 표지 목업 — 흐릿한 새 실루엣과 세리프 제목" width="1500" height="1100" loading="lazy">
+      <img src="assets/img/saranghagi/spread.jpg" alt="《사랑하기 때문에》 펼친 면 목업 — 표지와 앞날개의 새 이미지와 본문 타이포그래피" width="1500" height="1106" loading="lazy">
+    </div>
+    <div class="d-body">
+      <p class="d-note">작가의 요청으로 작가명은 비공개 처리했습니다.</p>
+      <p class="d-text">1980년대 동성 간의 사랑을 다룬 소설의 북 디자인입니다. 사회의 편견 속에서 자신의 마음을 온전히 드러내기 어려웠을 주인공들을 두 마리의 새에 빗대었습니다. 자유로운 사랑을 갈망하면서도 시대의 흐름에 순응해야 했을 이들의 모습을 표지에 담았습니다. 당시 글자를 하나하나 찍어낸 문서의 인상을 모티브로 타이포그래피를 구성하고, 유재하의 「사랑하기 때문에」 가사 일부를 차용해 1980년대 서점에서 만날 법한 시집의 분위기를 표현했습니다.</p>
+    </div>
+  </article>
+</template>
+
+<template id="project-youth-isolation">
+  <article class="d" data-id="youth-isolation">
+    <header class="d-head">
+      <h2 class="d-title">청년 고립에 대한 리프레이밍과 행동디자인 전략 연구 - 소셜디자인 프로젝트 사례를 중심으로 <span class="d-authors">(김정은, 안서현, 정다연, 천애리)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>소셜 디자인</li><li>행동 디자인</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2026-02-28">2026-02-28</time>
+      </div>
+    </header>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">청년 고립을 ‘해결해야 할 문제’에서 ‘이해해야 할 상태’로 바라보고, 자기 이해에서 일상의 작은 실천으로 이어지는 디자인을 제안한 연구입니다. 요정 캐릭터를 활용한 유형 테스트와 투두리스트를 통해, 사용자가 자신의 상태를 부담 없이 돌아보고 다음 행동을 선택할 수 있도록 구성했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Background</h3>
+      <p class="d-text">청년의 고립은 관계, 경제, 주거 등 다양한 일상 조건과 연결되어 있습니다. 그러나 고립 여부를 판별하거나 지원 대상을 선별하는 접근은 당사자에게 낙인감과 심리적 부담을 줄 수 있습니다. 이에 고립을 직접적으로 진단하기에 앞서, 자신의 상태를 편안하게 마주할 수 있는 디자인적 접근에 주목했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Purpose</h3>
+      <p class="d-text">고립을 인식하는 과정에서 발생할 수 있는 심리적 저항을 낮추고, 인식 이후의 행동 부담을 줄이는 설계 원칙을 탐색했습니다. 즉각적인 변화나 회복을 요구하기보다, 사용자가 스스로 선택할 수 있는 작은 실천의 계기를 마련하는 데 목적을 두었습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Method</h3>
+      <p class="d-text">문헌과 사례 분석을 바탕으로 유형 테스트의 문항과 결과 제시 방식을 설계하고, 캐릭터 및 투두리스트 프로토타입을 제작했습니다. 20~30대 청년 10명을 대상으로 파일럿 테스트와 반구조화 비대면 인터뷰를 진행했으며, 피드백을 반영해 문항 표현과 배열, 캐릭터의 정서적 톤, 결과 산출 방식을 보완했습니다.</p>
+      <figure class="d-figure"><img src="assets/img/youth-isolation/screens-test.jpg" alt="‘Who’s Your Fairies?’ 유형 테스트의 시작 화면, 문항 화면, 결과 화면" width="816" height="546" loading="lazy" style="--w:519px"></figure>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Design Outcome</h3>
+      <p class="d-text">‘Who’s Your Fairies?’는 일상 상황에 대한 응답 경향을 바탕으로 여섯 가지 요정 캐릭터와 서사를 제시하는 유형 테스트입니다. 사용자가 캐릭터를 통해 자신의 상태를 간접적으로 바라볼 수 있도록 설계했습니다. 이후 연결되는 인쇄물 형태의 투두리스트는 ‘5분 이내 수행’, ‘낮은 심리적 문턱’, ‘실패 부담 최소화’를 원칙으로 구성했습니다. 7일간 하루 세 가지 행동을 제안하고, 실내에서 실외로 활동 범위를 점진적으로 넓히며 작은 실천을 기록하도록 했습니다.</p>
+      <figure class="d-figure"><img src="assets/img/youth-isolation/screens-result.jpg" alt="‘튼튼 안정 요정’ 결과 화면과 특징·균형·응원 안내 화면" width="830" height="738" loading="lazy" style="--w:334px"></figure>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Contribution</h3>
+      <p class="d-text">사회문제에 대한 디자인의 역할을 문제 해결뿐 아니라, 문제를 인식하고 받아들이는 과정의 설계로 확장했습니다. 캐릭터 서사와 작은 행동 제안을 연결해, 자기 이해와 실천 사이의 심리적 부담을 완화하는 디자인 구조를 제안했다는 데 의의가 있습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Limitations</h3>
+      <p class="d-text">본 연구는 프로토타입의 설계 논리와 개발 과정을 다룬 프로젝트 연구로, 고립 완화나 장기적인 행동 변화의 효과를 검증한 것은 아닙니다. 향후 실제 사용 환경에서의 수용성과 지속성을 평가하고, 유관기관 협력 및 디지털 서비스 확장을 통해 적용 가능성을 살펴볼 필요가 있습니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-senior-food-safety">
+  <article class="d" data-id="senior-food-safety">
+    <header class="d-head">
+      <h2 class="d-title">노인의 식품안전 인식 및 식재료 관리 실태에 관한 탐색적 연구<span class="d-authors">(이다은, 박상아, 조령주, 담웨강, 정다연, 임진호)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>사용자 경험</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2025-11-15">2025-11-15</time>
+      </div>
+    </header>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">식품안전의 중요성을 알고 있어도 일상에서 안전하게 식재료를 관리하기 어려운 이유는 무엇일까요? 고령자의 식재료 구매·보관·관리 경험을 조사하고, 반복적으로 나타나는 어려움을 분석하여 향후 식품관리 서비스 설계를 위한 기초자료를 마련한 연구입니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Background</h3>
+      <p class="d-text">고령자의 식품관리에는 감각과 인지 기능의 변화뿐 아니라 오랫동안 형성된 생활 습관이 함께 영향을 미칩니다. 식품안전의 중요성을 인지하더라도 실제 관리 행동으로 이어지지 않는 경우가 있으며, 기존의 일회성 교육이나 복잡한 식품관리 앱만으로는 일상적인 실천을 지원하기 어렵습니다. 이에 고령자가 실제 생활에서 겪는 어려움을 사용자 관점에서 살펴보고자 했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Purpose</h3>
+      <p class="d-text">고령자의 식품안전 인식과 실제 식재료 관리 습관을 함께 조사하여, 인식과 행동 사이의 차이 및 반복되는 문제를 파악하고자 했습니다. 이를 바탕으로 고령자가 자율적으로 식재료를 관리할 수 있도록 지원하는 UX 기반 솔루션의 설계 방향을 탐색하고자 했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Method</h3>
+      <p class="d-text">65세 이상 고령자 101명을 대상으로 온·오프라인 설문조사를 실시했습니다. 디지털 활용 능력, 식재료 구매·보관·관리 습관, 식품안전 인식, 교육 경험을 조사하고, 응답자 중 5명과 심층 인터뷰를 진행하여 구체적인 경험과 요구를 파악했습니다. 수집한 자료는 어피니티 다이어그램으로 분석하여 공통된 문제를 구조화했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Key Finding</h3>
+      <p class="d-text">분석 결과, 정보 접근의 어려움, 냉동 식재료의 장기 방치, 식중독 위험 인식과 행동의 미연계, 조리를 통한 안전성에 대한 신뢰, 감각에 의존한 판단, 경제적·심리적 요인에 따른 소비 행동이라는 여섯 가지 핵심 문제를 도출했습니다. 이는 식품관리 행동을 이해할 때 지식 수준과 함께 생활 습관, 정서, 환경을 종합적으로 고려해야 함을 시사합니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Project Goal</h3>
+      <p class="d-text">고령자의 실제 생활 경험을 바탕으로 식품관리 지원에 필요한 문제를 정의하고, 사용자 중심의 서비스 설계 근거를 마련하는 것을 목표로 했습니다. 특히 안전에 대한 인식이 일상적인 관리 행동으로 이어질 수 있도록, 고령자의 습관과 사용 여건을 고려하는 디자인 방향을 지향했습니다.</p>
+    </section>
+
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Application</h3>
+      <p class="d-text">연구 결과는 고령자 대상 디지털 헬스케어 서비스, 식품안전 교육 콘텐츠, 커뮤니티 기반 식생활 지원 시스템을 설계하는 데 활용할 수 있습니다. 본 연구는 사용자 문제 도출까지 수행했으며, 후속 연구에서는 이를 구체적인 솔루션으로 발전시키고 사용성과 효과를 검증할 필요가 있습니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-witch-watch">
+  <article class="d" data-id="witch-watch">
+    <header class="d-head">
+      <h2 class="d-title">트렌드 아카이브 ‘WITCH WATCH’ <span class="d-authors">(정다연)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>콘텐츠 디자인</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2026-01-26">2026-01-26</time>
+      </div>
+    </header>
+    <div class="ww">
+      <div class="ww-hero"><img src="assets/img/witch-watch/hero.jpg" alt="인스타그램 게시물 화면이 담긴 휴대폰 두 대 목업" width="1500" height="1637" loading="lazy"></div>
+      <div class="ww-grid-wrap">
+        <ul class="ww-grid" aria-label="카드뉴스 예시 (두 시리즈가 번갈아 표시됨)">
+          <li class="ww-card"><img src="assets/img/witch-watch/card-a1.jpg" alt="WITCH WATCH 카드뉴스 1" width="600" height="800" loading="lazy"><img class="ww-b" src="assets/img/witch-watch/card-b1.jpg" alt="" aria-hidden="true" width="600" height="800" loading="lazy"></li>
+          <li class="ww-card"><img src="assets/img/witch-watch/card-a2.jpg" alt="WITCH WATCH 카드뉴스 2" width="600" height="800" loading="lazy"><img class="ww-b" src="assets/img/witch-watch/card-b2.jpg" alt="" aria-hidden="true" width="600" height="800" loading="lazy"></li>
+          <li class="ww-card"><img src="assets/img/witch-watch/card-a3.jpg" alt="WITCH WATCH 카드뉴스 3" width="600" height="800" loading="lazy"><img class="ww-b" src="assets/img/witch-watch/card-b3.jpg" alt="" aria-hidden="true" width="600" height="800" loading="lazy"></li>
+          <li class="ww-card"><img src="assets/img/witch-watch/card-a4.jpg" alt="WITCH WATCH 카드뉴스 4" width="600" height="800" loading="lazy"><img class="ww-b" src="assets/img/witch-watch/card-b4.jpg" alt="" aria-hidden="true" width="600" height="800" loading="lazy"></li>
+          <li class="ww-card"><img src="assets/img/witch-watch/card-a5.jpg" alt="WITCH WATCH 카드뉴스 5" width="600" height="800" loading="lazy"><img class="ww-b" src="assets/img/witch-watch/card-b5.jpg" alt="" aria-hidden="true" width="600" height="800" loading="lazy"></li>
+          <li class="ww-card"><img src="assets/img/witch-watch/card-a6.jpg" alt="WITCH WATCH 카드뉴스 6" width="600" height="800" loading="lazy"><img class="ww-b" src="assets/img/witch-watch/card-b6.jpg" alt="" aria-hidden="true" width="600" height="800" loading="lazy"></li>
+        </ul>
+      </div>
+    </div>
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">위치와치는 디자이너의 시선으로 최근의 트렌드와 관심 있는 주제를 소개하는 콘텐츠 프로젝트입니다. 직접 흥미를 느낀 소재를 선택하고, 그 안에서 함께 나누고 싶은 내용을 콘텐츠로 풀어내 독자들과의 공통점을 찾아냅니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-dokkaebi-bob">
+  <article class="d" data-id="dokkaebi-bob">
+    <header class="d-head">
+      <h2 class="d-title">외국인 관광객을 위한 편의점 먹거리 조합 추천 서비스 ‘Dokkaebi BOB’ <span class="d-authors">(정다연, 석지희, 박상아, 이다은, 한민지, 유서현)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>UIUX</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2025-09-01">2025-09-01</time>
+      </div>
+    </header>
+    <div class="dk">
+      <div class="dk-band"><img src="assets/img/dokkaebi-bob/hero.jpg" alt="Dokkaebi BOB 로고와 도깨비 캐릭터 배경 위, 앱 홈 화면을 띄운 휴대폰을 든 손" width="1200" height="1196" loading="lazy"></div>
+      <div class="dk-band"><img src="assets/img/dokkaebi-bob/characters.jpg" alt="사물 속에 숨어있는 도깨비 — 패랭이, 도깨비불, 밥, 컵라면, 전자레인지 캐릭터" width="1200" height="1270" loading="lazy"></div>
+      <div class="dk-band dk-phone">
+        <div class="dk-screen" role="img" aria-label="앱 화면 시연: 홈, 조합찾기, 재료선택 필터, 조합 상세가 차례로 스크롤되며 표시됨">
+              <img src="assets/img/dokkaebi-bob/screen-1.jpg" alt="홈 화면: K-스낵 배너, Today’s TOP5, 인기 조합 목록" width="402" height="2675">
+              <img src="assets/img/dokkaebi-bob/screen-2.jpg" alt="조합찾기 화면: 조합 카드 목록" width="402" height="1192">
+              <img src="assets/img/dokkaebi-bob/screen-3.jpg" alt="재료선택 필터 시트: 과자·베이커리 하위 분류 선택" width="402" height="852">
+              <img src="assets/img/dokkaebi-bob/screen-4.jpg" alt="조합 상세 화면: 매콤달콤 마크 정식의 조합 정보, 스토리, 레시피" width="402" height="3176">
+        </div>
+        <img class="dk-frame" src="assets/img/dokkaebi-bob/phone-frame.png" alt="" aria-hidden="true" width="780" height="1590">
+      </div>
+    </div>
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">도깨비밥은 방한 외국인 관광객에게 한국의 편의점 먹거리 문화를 소개하는 모바일 웹 서비스입니다.</p>
+      <p class="d-text">한류를 통해 한국의 편의점 음식과 이색적인 조합이 해외에서도 관심을 끌고 있다는 점에 주목했습니다. 개별 상품을 소개하는 데서 한 걸음 더 나아가, 한국인들이 즐겨 먹는 조합과 음식의 유래를 함께 담았습니다. 관광객이 여행 중 가까운 편의점에서 새로운 조합을 직접 맛보며 한국의 일상적인 먹거리 문화를 경험할 수 있도록 기획했습니다.</p>
+      <p class="d-text">국내 편의점 브랜드와의 협업을 목표로, 서비스의 기획 의도와 협업 방향을 담은 사업계획서도 준비하고 있습니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-gongmyeong">
+  <article class="d" data-id="gongmyeong">
+    <header class="d-head">
+      <h2 class="d-title">울진 국립해양과학관 미디어 전시 사운드 스케이프 오브 울진 ‘공명’ : 응답(Reply) <span class="d-authors">(정다연)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>미디어아트</li><li>사운드 디자인</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2025-07-22">2025-07-22</time>
+      </div>
+    </header>
+    <div class="d-video">
+      <video controls playsinline preload="metadata" poster="assets/img/gongmyeong/poster.jpg" aria-label="《응답(Reply)》 작품 영상">
+        <source src="assets/video/gongmyeong-reply.mp4" type="video/mp4">
+      </video>
+    </div>
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">《응답(Reply)》은 울진의 여덟 명소를 직접 탐방하며 녹음한 자연의 소리를 재구성하고, AI로 제작한 영상과 결합한 사운드스케이프 미디어아트입니다.</p>
+      <p class="d-text">덕구계곡의 상류·중류·하류를 상징하는 세 정령은 각자의 자리에서 바라본 자연을 서로 다른 목소리로 들려줍니다. 따로 시작한 세 이야기는 물줄기가 합쳐지듯 서서히 포개져 하나의 흐름으로 이어집니다. 현장에서 채집한 소리와 시적인 내레이션을 통해 관람객이 울진의 풍경을 귀로도 경험할 수 있도록 연출했습니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-usher">
+  <article class="d" data-id="usher">
+    <header class="d-head">
+      <h2 class="d-title">공연장 온오프라인 관람객 케어 서비스 ‘Usher’ <span class="d-authors">(정다연)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>UIUX</li><li>서비스 디자인</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2024-10-30">2024-10-30</time>
+      </div>
+    </header>
+    <div class="d-stack">
+      <img src="assets/img/usher/hero.jpg" alt="휴대폰 두 대 목업 — Usher 홈 화면과 보라색 스플래시 화면" width="1200" height="1320" loading="lazy">
+      <img src="assets/img/usher/features.jpg" alt="Usher 홈 화면 기능 설명 — 내 공연 안내 및 아카이빙, 실시간 공연장 상황 알림, 효율적인 동선" width="1200" height="1120" loading="lazy">
+      <img src="assets/img/usher/notify.jpg" alt="잠금화면 푸시 알림, 2×2·2×5 홈 위젯, 스마트워치 화면" width="1200" height="1124" loading="lazy">
+      <img src="assets/img/usher/banner.jpg" alt="민트 배경의 Usher 거리 배너 목업과 보라색 손목밴드를 찬 손" width="1200" height="1188" loading="lazy">
+    </div>
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">코로나19 종식 이후 문화예술 활동에 대한 관심과 소비가 증가했지만, 사용자들의 변화된 생활 방식을 반영하지 못한 규정으로 인해 유동적인 오프라인 환경에 적응하기 어려운 상황입니다. 이 프로젝트는 오프라인 환경을 개선하고 온라인에서도 쾌적한 문화 향유를 지원하기 위해 설계되었습니다.</p>
+    </section>
+  </article>
+</template>
+
+<template id="project-pole-number">
+  <article class="d" data-id="pole-number">
+    <header class="d-head">
+      <h2 class="d-title">전봇대의 전주번호를 이용한 안전 예방 공공디자인 계획 <span class="d-authors">(정다연, 김대훈)</span></h2>
+      <div class="d-meta">
+        <ul class="tags"><li>공공디자인</li><li>서비스 디자인</li></ul>
+        <time class="d-date notranslate" translate="no" datetime="2023-10-04">2023-10-04</time>
+      </div>
+    </header>
+    <div class="d-stack d-stack--light">
+      <img src="assets/img/pole/hero.jpg" alt="HELP 프로젝트 메인 이미지 — 골목 전봇대에 설치된 초록색 전주번호·NFC 안내 시트" width="1200" height="676" loading="lazy">
+      <img src="assets/img/pole/background.jpg" alt="Background & Solution — 기존 전주번호의 문제점과 CEPTED 기반 HELP 해결 방향" width="1200" height="644" loading="lazy">
+      <img src="assets/img/pole/design.jpg" alt="Design — 전주번호, 경찰 로고·신고번호, 위치 정보, NFC 시트, 지역 로고로 구성된 시트 디자인" width="1200" height="750" loading="lazy">
+      <img src="assets/img/pole/nfc.jpg" alt="NFC 활용 — HELP 발견, NFC 태그 확인, 위치정보 및 신고화면 확인, 신고의 4단계" width="1200" height="568" loading="lazy">
+    </div>
+    <section class="d-sec">
+      <h3 class="d-label notranslate" translate="no">Overview</h3>
+      <p class="d-text">위급 상황에서 자신의 위치를 빠르게 알리고 신고할 수 있도록, 전봇대를 활용한 범죄예방 환경설계(CPTED)를 제안했습니다. 전봇대의 불법광고물 부착 방지 시트에 전주번호와 위치 정보, 신고 방법을 국문과 영문으로 표기해 누구나 쉽게 확인할 수 있도록 했습니다. 시트에는 NFC 태그를 적용해 스마트폰을 가까이 대면 간편하게 신고할 수 있도록 설계했습니다.</p>
+    </section>
+  </article>
+</template>
+
+<div id="gt-element" hidden></div>
+<script src="script.js"></script>
+</body>
+</html>
