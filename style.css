@@ -3,15 +3,15 @@
 @font-face {
   font-family: "Orator10 BT";
   src: local("Orator10 BT"), local("Orator10BT-Regular"),
-       url("assets/fonts/Orator10BT.woff2") format("woff2"),
-       url("assets/fonts/Orator10BT.woff") format("woff");
+       url("Orator10BT.woff2") format("woff2"),
+       url("Orator10BT.woff") format("woff");
   font-weight: 400;
   font-display: swap;
 }
 /* Orator10 BT가 없을 때 쓰는 대체 폰트 — 폭을 Orator에 맞춰 86%로 줄임 */
 @font-face {
   font-family: "Orator Fallback";
-  src: url("assets/fonts/plex-mono-fallback.woff2") format("woff2");
+  src: url("plex-mono-fallback.woff2") format("woff2");
   font-weight: 400;
   size-adjust: 86%;
   font-display: swap;
